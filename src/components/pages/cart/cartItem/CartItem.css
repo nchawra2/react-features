@@ -13,6 +13,7 @@
 .cart-item-img {
   height: 12.3rem;
   width: 12.3rem;
+  object-fit: cover;
 }
 
 .cart-item-name,

@@ -21,6 +21,10 @@
   margin-top: 1rem;
 }
 
+.item-img img {
+  object-fit: cover;
+}
+
 .item-name {
   font-size: 2rem;
   letter-spacing: 0.35px;

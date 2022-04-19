@@ -211,7 +211,7 @@ const AllProducts = () => {
                   </select>
                 </div>
                 <div className="mobile-filters">
-                  <FaFilter />{" "}
+                  <FaFilter/>{" "}
                   <span onClick={() => setMFilter(!mFilter)}>Filter</span>
                   {mFilter && (
                     <div className="mobile-filter-dropdown">
