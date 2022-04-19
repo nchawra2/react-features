@@ -1,0 +1,16 @@
+.bread-crum {
+  height: 4.5rem;
+  background: #f6f7f8 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bread-crum-text {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  letter-spacing: 0.35px;
+}

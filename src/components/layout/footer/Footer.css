@@ -1,0 +1,59 @@
+footer {
+  margin-top: 20rem;
+}
+
+.footer-info-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  column-gap: 15rem;
+}
+
+.logo-2 {
+  width: 10.4rem;
+  height: 2.8rem;
+}
+
+.head-1 {
+  font-size: 2rem;
+}
+
+.text-1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer-info-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.link {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.link:first-child {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 2rem;
+  margin: 2rem 0;
+}
+
+.credit-card {
+  width: 38px;
+  height: 25px;
+}
+
+
+@media (max-width: 400px) {
+  footer {
+    display: none;
+  }
+}

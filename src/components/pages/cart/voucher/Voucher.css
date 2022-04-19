@@ -1,0 +1,42 @@
+.voucher {
+  border: 0.2rem solid #f1f3f4;
+  border-radius: 0.4rem;
+  width: 36.9rem;
+  height: 6rem;
+}
+
+.voucher-input {
+  width: 25.1rem;
+  height: 6rem;
+  border: none;
+}
+
+.voucher-input:focus {
+  outline: none;
+}
+
+.redeem-btn {
+  width: 11.4rem;
+  height: 6rem;
+  background: #33a0ff 0% 0% no-repeat padding-box;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  letter-spacing: 0.35px;
+}
+
+@media (max-width: 400px) {
+  .voucher {
+    width: 100%;
+  }
+
+  .voucher-input {
+    width: 70%;
+  }
+
+  .redeem-btn {
+    width: 30%;
+  }
+}

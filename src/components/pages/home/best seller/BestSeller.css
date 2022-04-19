@@ -1,0 +1,77 @@
+.best-seller {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.best-seller-head {
+  font-size: 3rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+
+.best-categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50rem;
+  margin: auto;
+  padding-top: 1.2rem;
+}
+
+.category-mobile {
+  display: none;
+}
+
+.best-categories li {
+  list-style: none;
+  font-size: 1.7rem;
+  letter-spacing: 0.35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cat-active {
+  color: #33a0ff;
+  border-bottom: 0.35rem solid;
+}
+
+.best-items {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+
+.load-more {
+  font-size: 1.7rem;
+  letter-spacing: 0px;
+  color: #33a0ff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .best-categories {
+    display: none;
+  }
+
+  .category-mobile {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .category-mobile select {
+    width: 80%;
+    height: 4rem;
+    background: #f8f8f8 0% 0% no-repeat padding-box;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.38px;
+    border: none;
+  }
+
+  .category-mobile select:focus {
+    outline: none;
+  }
+}
